@@ -45,10 +45,10 @@ def autonomous_function():
     # wait(100, MSEC)
     # trigger_driver.drive(70)
     matchload.set(False)
-    wait(220, MSEC)
+    wait(250, MSEC)
     matchload.set(True)
 
-    wait(200, MSEC)
+    wait(1000, MSEC)
     # conveyor.spin(STOP, STOP, STOP)
     # flap.set(False)
 
