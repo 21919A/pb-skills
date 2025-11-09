@@ -1,0 +1,144 @@
+<svg version="1.1" width="600" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="-2100 -2100 4200 4200">
+<g transform="scale(1, -1)">
+<rect x="-2100" y="-2100" width="4200" height="4200" fill="#ffffff"/>
+<rect x="-1800" y="-1800" width="3600" height="3600" fill="none" stroke="#333333" stroke-width="3"/>
+<path d="M -1788 240 l 380 0 a 50 50 0 0 0 50 -50 l 0 -380 a 50 50 0 0 0 -50 -50 l -380 0  l 0 50 l 380 0 l 0 380 l -380 0 z" fill="#cc5555" stroke="#000000" stroke-width="3"/>
+<path d="M 1788 240 l -380 0 a 50 50 0 0 1 -50 -50 l 0 -380 a 50 50 0 0 1 50 -50 l 380 0  l 0 50 l -380 0 l 0 380 l 380 0 z" fill="#5555cc" stroke="#000000" stroke-width="3"/>
+<rect x="-550" y="1200" width="20" height="94" transform="rotate(45, -540, 1200)" fill="#eeaa55"/>
+<rect x="-550" y="1200" width="20" height="94" transform="rotate(135, -540, 1200)" fill="#eeaa55"/>
+<rect x="530" y="1200" width="20" height="94" transform="rotate(-45, 540, 1200)" fill="#eeaa55"/>
+<rect x="530" y="1200" width="20" height="94" transform="rotate(-135, 540, 1200)" fill="#eeaa55"/>
+<rect x="-550" y="-1200" width="20" height="94" transform="rotate(45, -540, -1200)" fill="#eeaa55"/>
+<rect x="-550" y="-1200" width="20" height="94" transform="rotate(135, -540, -1200)" fill="#eeaa55"/>
+<rect x="530" y="-1200" width="20" height="94" transform="rotate(-45, 540, -1200)" fill="#eeaa55"/>
+<rect x="530" y="-1200" width="20" height="94" transform="rotate(-135, 540, -1200)" fill="#eeaa55"/>
+<rect x="-556" y="1162" width="1112" height="76" fill="#eeaa55"/>
+<rect x="-620" y="1130" width="1240" height="140" fill="none" stroke="#000000" stroke-width="3"/>
+<rect x="-556" y="-1238" width="1112" height="76" fill="#eeaa55"/>
+<rect x="-620" y="-1270" width="1240" height="140" fill="none" stroke="#000000" stroke-width="3"/>
+<rect x="-286" y="-52" width="572" height="104" transform="rotate(45)" fill="#cccccc" stroke="#000000" stroke-width="3"/>
+<polyline points="-128,4 -64,4 -4,64 -4,128" fill="none" stroke="#eeaa55" stroke-width="20"/>
+<polyline points="128,-4 64,-4 4,-64 4,-128" fill="none" stroke="#eeaa55" stroke-width="20"/>
+<rect x="-290" y="-70" width="580" height="140" transform="rotate(-45)" fill="none" stroke="#000000" stroke-width="3"/>
+<path d="M 1118,1728 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1200,1728 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -164,1182 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -82,1182 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -641,582 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -559,582 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -641,500 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1392,105 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1392,23 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1392,-59 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1392,-141 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -641,-536 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -559,-618 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -641,-618 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -164,-1218 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -82,-1218 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1118,-1764 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1200,-1764 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#cc5555" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1282,1728 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1200,1728 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 0,1182 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 82,1182 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 477,582 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 559,582 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 559,500 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1474,105 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1474,23 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1474,-59 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1474,-141 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 559,-536 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 559,-618 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 477,-618 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 0,-1218 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 82,-1218 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1282,-1764 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1200,-1764 l 0 36 l 23 23 l 36 0 l 23 -23 l  0 -36 l -23 -23 l -36 0 l -23 23 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1793,1191 a 70 70 0 0 0 140 0 a 70 70 0 0 0 -140 0 z m 20 0 a 50 50 0 0 0 100 0 a 50 50 0 0 0 -100 0 z" fill="#eeaa55" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1653,1191 a 70 70 0 0 0 140 0 a 70 70 0 0 0 -140 0 z m 20 0 a 50 50 0 0 0 100 0 a 50 50 0 0 0 -100 0 z" fill="#eeaa55" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -1793,-1191 a 70 70 0 0 0 140 0 a 70 70 0 0 0 -140 0 z m 20 0 a 50 50 0 0 0 100 0 a 50 50 0 0 0 -100 0 z" fill="#eeaa55" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 1653,-1191 a 70 70 0 0 0 140 0 a 70 70 0 0 0 -140 0 z m 20 0 a 50 50 0 0 0 100 0 a 50 50 0 0 0 -100 0 z" fill="#eeaa55" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
+<line x1="-1800" y1="-1200" x2="1800" y2="-1200" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="-600" x2="1800" y2="-600" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="0" x2="1800" y2="0" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="600" x2="1800" y2="600" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="1200" x2="1800" y2="1200" stroke="#444444" stroke-width="3"/>
+<line x1="-1200" y1="-1800" x2="-1200" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="-600" y1="-1800" x2="-600" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="0" y1="-1800" x2="0" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="600" y1="-1800" x2="600" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="1200" y1="-1800" x2="1200" y2="1800" stroke="#444444" stroke-width="3"/>
+<g transform="translate(1200.0 1200.0)  rotate(-90)">
+<rect x="-195" y="-190" width="120" height="410" fill="none" stroke="#77cc77" stroke-width="25"/>
+<rect x="75" y="-190" width="120" height="410" fill="none" stroke="#77cc77" stroke-width="25"/>
+<line x1="-75" y1="0" x2="75" y2="0" stroke="#77cc77" stroke-width="25"/>
+<line x1="0" y1="-410" x2="0" y2="410" stroke="#77cc77" stroke-width="25"/>
+<polyline points="-60,306 0,410 60,306" fill="none" stroke="#77cc77" stroke-width="25"/>
+<polyline points="-60,-514 0,-410 60,-514" fill="none" stroke="#77cc77" stroke-width="25"/>
+</g>
+<g transform="translate(800 1200)  rotate(-270)">
+<rect x="-195" y="-190" width="120" height="410" fill="none" stroke="#cc7777" stroke-width="25"/>
+<rect x="75" y="-190" width="120" height="410" fill="none" stroke="#cc7777" stroke-width="25"/>
+<line x1="-75" y1="0" x2="75" y2="0" stroke="#cc7777" stroke-width="25"/>
+<line x1="0" y1="-410" x2="0" y2="410" stroke="#cc7777" stroke-width="25"/>
+<polyline points="-60,306 0,410 60,306" fill="none" stroke="#cc7777" stroke-width="25"/>
+<polyline points="-60,-514 0,-410 60,-514" fill="none" stroke="#cc7777" stroke-width="25"/>
+</g>
+<line x1="1162.0" y1="1200.0" x2="1237.0" y2="1200.0" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
+<animateTransform attributeName="transform" type="rotate" to="360 1200.0 1200.0" dur="2000ms" repeatCount="indefinite" from="0 1200.0 1200.0"/>
+</line>
+<line x1="1162.0" y1="1200.0" x2="1237.0" y2="1200.0" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
+<animateTransform attributeName="transform" type="rotate" to="360 1200.0 1200.0" dur="2000ms" repeatCount="indefinite" from="0 1200.0 1200.0"/>
+</line>
+<line x1="1112.0" y1="1200.0" x2="1287.0" y2="1200.0" stroke="#000000" stroke-width="25" stroke-dasharray="75,25">
+<animateTransform attributeName="transform" type="rotate" to="360 1200.0 1200.0" dur="2000ms" repeatCount="indefinite" from="0 1200.0 1200.0"/>
+</line>
+<polyline points="1200.0,1200.0 1400,1200" fill="none" stroke="#55ff55" stroke-width="75" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
+<line x1="1312" y1="1200" x2="1487" y2="1200" stroke="#000000" stroke-width="25" stroke-dasharray="75,25">
+<animateTransform attributeName="transform" type="rotate" to="360 1400 1200" dur="2000ms" repeatCount="indefinite" from="0 1400 1200"/>
+</line>
+<polyline points="1400,1200 800,1200" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
+<line x1="762" y1="1200" x2="837" y2="1200" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
+<animateTransform attributeName="transform" type="rotate" to="360 800 1200" dur="2000ms" repeatCount="indefinite" from="0 800 1200"/>
+</line>
+<line x1="762" y1="1200" x2="837" y2="1200" stroke="#ff5555" stroke-width="25" stroke-dasharray="25,25">
+<animateTransform attributeName="transform" type="rotate" to="360 800 1200" dur="2000ms" repeatCount="indefinite" from="0 800 1200"/>
+</line>
+<line x1="-2040" y1="1890" x2="-1920" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-2040" y1="2010" x2="-1920" y2="1890" stroke="#000000" stroke-width="12"/>
+<line x1="-1860" y1="1890" x2="-1740" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-1860" y1="2010" x2="-1740" y2="1890" stroke="#000000" stroke-width="12"/>
+<line x1="-1680" y1="1890" x2="-1560" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-1680" y1="2010" x2="-1560" y2="1890" stroke="#000000" stroke-width="12"/>
+<path d="M -1338,1908 a 60 60 0 1 0 0 84" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1380 1992 l 40 0 l 0 42" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1360,1965 l -40 0 l 0 -40 m 0 20 l 30 0" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1158,1908 a 60 60 0 1 0 0 84" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1200 1992 l 40 0 l 0 42" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1180,1965 l -40 0 l 0 -40 m 0 20 l 30 0" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -978,1908 a 60 60 0 1 0 0 84" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1020 1992 l 40 0 l 0 42" fill="none" stroke="#55ff55" stroke-width="12"/>
+<path d="M -1000,1965 l -40 0 l 0 -40 m 0 20 l 30 0" fill="none" stroke="#55ff55" stroke-width="12"/>
+<line x1="-840" y1="1890" x2="-720" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-840" y1="2010" x2="-720" y2="1890" stroke="#000000" stroke-width="12"/>
+<line x1="-660" y1="1890" x2="-540" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-660" y1="2010" x2="-540" y2="1890" stroke="#000000" stroke-width="12"/>
+<line x1="-480" y1="1890" x2="-360" y2="2010" stroke="#000000" stroke-width="12"/>
+<line x1="-480" y1="2010" x2="-360" y2="1890" stroke="#000000" stroke-width="12"/>
+<path d="M -138,1908 a 60 60 0 1 0 0 84" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M -180 1992 l 40 0 l 0 42" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M -160,1965 l -40 0 l 0 -40 m 0 20 l 30 0" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M -42,1908 a 60 60 0 1 1 0 84" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M 0 1992 l -40 0 l 0 42" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M -20 1925 l 0 40 l 10 0 a 20 10 0 0 0 0 -20 l -10 0 l 33 -18" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M 222,1908 a 60 60 0 1 0 0 84" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M 180 1992 l 40 0 l 0 42" fill="none" stroke="#ff5555" stroke-width="12"/>
+<path d="M 200,1965 l -40 0 l 0 -40 m 0 20 l 30 0" fill="none" stroke="#ff5555" stroke-width="12"/>
+</g>
+</svg>
