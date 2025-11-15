@@ -104,6 +104,7 @@ def autonomous_function():
 
     robot_position.reset(Position(-1600, -450)) # 1600 -> 1575 according to path.jerry.io
     reset_heading_to_aim(Position(-900, -450), FORWARD)
+    flap.set(True)
 
     trigger_mover.move(Position(-900, -450))
     wait(500, MSEC)
@@ -116,7 +117,6 @@ def autonomous_function():
 
     matchload.set(True)
     wait(500, MSEC)
-    flap.set(True)
     wait(1500, MSEC)
 
     # trigger_mover.move(Position(1480, 1185), FORWARD)
