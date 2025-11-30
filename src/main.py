@@ -113,6 +113,78 @@ def autonomous_function():
     log(("Competition", "competition"), "autonomous_end")
 
 
+def autonomous_function2():
+    """Different skills path with no ball scoring"""
+    robot_position.reset(Position(-1600, -450))
+    reset_heading_to_aim(Position(-900, -450), FORWARD)
+    flap.set(True)
+
+    trigger_mover.move(Position(-1200, -450), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-1200, -1200), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
+    
+    # empty loader 1
+    matchload.set(True)
+    conveyor.spin(REVERSE, FORWARD, FORWARD)
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
+    trigger_mover.move(Position(-1200, -1200), REVERSE)
+    matchload.set(False)
+
+    trigger_turner.turn(-180, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(-1200, -1500), FORWARD)
+    trigger_turner.turn(-270, FRAME_ABSOLUTE)
+
+    # drive to other side
+    conveyor.spin(REVERSE, FORWARD, FORWARD)
+    flap.set(False) # empty balls out
+    trigger_mover.move(Position(1200, -1500), FORWARD)
+
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(1200, -1200), FORWARD)
+    flap.set(True)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
+
+    # empty loader 2
+    matchload.set(True)
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
+    trigger_mover.move(Position(1200, -1200), REVERSE)
+    matchload.set(False)
+
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    flap.set(False) # empty balls out
+    conveyor.spin(REVERSE, FORWARD, FORWARD)
+    trigger_mover.move(Position(1200, 1200), FORWARD)
+
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
+    flap.set(True)
+
+    # empty loader 3
+    matchload.set(True)
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
+    trigger_mover.move(Position(1200, 1200), REVERSE)
+    matchload.set(False)
+
 # Initialize event handling
 init_event_handling()
 
