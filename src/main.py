@@ -25,120 +25,90 @@ def autonomous_function():
 
     log(("Competition", "competition"), "autonomous_begin")
 
-    # robot_position.reset(Position(1200, 1185))
-    # reset_heading_to_aim(Position(1480, 1185), FORWARD)
-
-
-    # matchload.set(True)
-
-    # wait(1000, MSEC)
-
-    # flap.set(True)
-
-    # wait(1000, MSEC)
-
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-
-    # # trigger_mover.move(Position(1480, 1185), FORWARD)
-    # trigger_driver.drive(260)
-    # # trigger_driver.drive(-50)
-    # # wait(100, MSEC)
-    # # trigger_driver.drive(70)
-    # matchload.set(False)
-    # wait(250, MSEC)
-    # matchload.set(True)
-
-    # wait(1000, MSEC)
-    # # conveyor.spin(STOP, STOP, STOP)
-    # # flap.set(False)
-
-    # trigger_mover.move(Position(1200, 1200), REVERSE)
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-    # matchload.set(False)
-    # trigger_turner.turn(177, FRAME_HEADING_RELATIVE)
-    # conveyor.spin(STOP, STOP, STOP)
-    # flap.set(False)
-
-    # trigger_mover.move(Position(900, 1200), FORWARD)
-    # # trigger_turner.turn(270, FRAME_ABSOLUTE) # do another check
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-
-    # robot_position.reset(Position(1200, 1185))
-    # reset_heading_to_aim(Position(1480, 1185), FORWARD)
-
-
-    # matchload.set(True)
-
-    # wait(1000, MSEC)
-
-    # flap.set(True)
-
-    # wait(1000, MSEC)
-
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-
-    # # trigger_mover.move(Position(1480, 1185), FORWARD)
-    # trigger_driver.drive(260)
-    # # trigger_driver.drive(-50)
-    # # wait(100, MSEC)
-    # # trigger_driver.drive(70)
-    # matchload.set(False)
-    # wait(220, MSEC)
-    # matchload.set(True)
-
-    # wait(200, MSEC)
-    # # conveyor.spin(STOP, STOP, STOP)
-    # # flap.set(False)
-
-    # trigger_mover.move(Position(1200, 1200), REVERSE)
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-    # matchload.set(False)
-    # trigger_turner.turn(177, FRAME_HEADING_RELATIVE)
-    # conveyor.spin(STOP, STOP, STOP)
-    # flap.set(False)
-
-    # trigger_mover.move(Position(900, 1200), FORWARD)
-    # # trigger_turner.turn(270, FRAME_ABSOLUTE) # do another check
-    # conveyor.spin(REVERSE, FORWARD, FORWARD)
-
-
-    robot_position.reset(Position(-1600, -450)) # 1600 -> 1575 according to path.jerry.io
+    robot_position.reset(Position(-1600, -450))
     reset_heading_to_aim(Position(-900, -450), FORWARD)
     flap.set(True)
 
-    trigger_mover.move(Position(-900, -450))
-    wait(500, MSEC)
-    trigger_turner.turn(-111.801, FRAME_HEADING_RELATIVE)
-    wait(500, MSEC)
+    trigger_mover.move(Position(-1200, -450), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-1200, -1200), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
+    
+    # empty loader 1
+    matchload.set(True)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
-    trigger_mover.move(Position(-1200, -1185), FORWARD)
-    trigger_turner.turn(270, FRAME_HEADING_RELATIVE)
-    trigger_turner.turn(270, FRAME_ABSOLUTE) # do another check
-
-    matchload.set(True)
-    wait(500, MSEC)
-    wait(1500, MSEC)
-
-    # trigger_mover.move(Position(1480, 1185), FORWARD)
-    trigger_driver.drive(260)
-    matchload.set(False)
-    wait(1000, MSEC)
-    matchload.set(True)
-
-    wait(1000, MSEC)
-
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
     trigger_mover.move(Position(-1200, -1200), REVERSE)
-    conveyor.spin(REVERSE, FORWARD, FORWARD)
     matchload.set(False)
-    trigger_turner.turn(177, FRAME_HEADING_RELATIVE)
+
+    trigger_turner.turn(-180, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(-1200, -1500), FORWARD)
+    trigger_turner.turn(-270, FRAME_ABSOLUTE)
+
+    # drive to other side
+    trigger_mover.move(Position(1200, -1500), FORWARD)
+
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(1200, -1200), FORWARD)
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
+
+    # score load 1 in long goal 1
     conveyor.spin(STOP, STOP, STOP)
     flap.set(False)
-
-    trigger_mover.move(Position(-900, -1200), FORWARD)
-    # trigger_turner.turn(270, FRAME_ABSOLUTE) # do another check
+    trigger_mover.move(Position(835, -1200), FORWARD)
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
+    wait(3000, MSEC)
 
+    trigger_turner.turn(180, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(1200, -1200), FORWARD)
+    flap.set(True)
 
+    # empty loader 2
+    matchload.set(True)
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
+    trigger_mover.move(Position(1200, -1200), REVERSE)
+    matchload.set(False)
+
+    trigger_turner.turn(180, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
+
+    # score load 2 in long goal 1
+    conveyor.spin(STOP, STOP, STOP)
+    flap.set(False)
+    trigger_mover.move(Position(835, -1200))
+    trigger_turner.turn(-90, FRAME_ABSOLUTE)
+    conveyor.spin(REVERSE, FORWARD, FORWARD)
+    wait(3000, MSEC)
+
+    trigger_driver.drive(-100)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    trigger_driver.drive(400)
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+
+    # come back over
+    trigger_mover.move(Position(-1500, -800), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    matchload.set(True)
+
+    # park in red park zone
+    trigger_driver.drive_for_time(1000, 100, True, 900)
 
     log(("Competition", "competition"), "autonomous_end")
 
