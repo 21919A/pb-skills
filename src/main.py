@@ -20,7 +20,7 @@ def driver_function():
     log(("Competition", "competition"), "driver_end")
 
 
-def autonomous_function():
+def autonomous_function2():
     """Function for the autonomous part of a competition match"""
 
     log(("Competition", "competition"), "autonomous_begin")
@@ -113,7 +113,7 @@ def autonomous_function():
     log(("Competition", "competition"), "autonomous_end")
 
 
-def autonomous_function2():
+def autonomous_function():
     """Different skills path with no ball scoring"""
     robot_position.reset(Position(-1600, -450))
     reset_heading_to_aim(Position(-900, -450), FORWARD)
@@ -184,6 +184,37 @@ def autonomous_function2():
     wait(400, MSEC)
     trigger_mover.move(Position(1200, 1200), REVERSE)
     matchload.set(False)
+    conveyor.spin(STOP, STOP, STOP)
+
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    conveyor.spin(REVERSE, FORWARD, FORWARD)
+    flap.set(False) # empty balls out
+    trigger_mover.move(Position(1200, 1500), FORWARD)
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
+
+    # drive to other side
+    trigger_mover.move(Position(-1200, 1500), FORWARD)
+    trigger_turner.turn(90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(180, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(-1200, 1200), FORWARD)
+    trigger_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
+
+    # empty loader 4
+    matchload.set(True)
+    trigger_driver.drive_for_time(1000, 30, True, 243)
+    trigger_driver.drive(-35)
+    reset_robot_position_and_heading_to_gps()
+    wait(600, MSEC)
+    conveyor.spin(REVERSE, FORWARD, STOP)
+    wait(400, MSEC)
+    trigger_mover.move(Position(-1200, 1200), REVERSE)
+    matchload.set(False)
+    conveyor.spin(STOP, STOP, STOP)
+
+    trigger_mover.move(Position(-1600, -150), FORWARD)
 
 # Initialize event handling
 init_event_handling()
