@@ -20,7 +20,7 @@ def driver_function():
     log(("Competition", "competition"), "driver_end")
 
 
-def autonomous_function2():
+def autonomous_function():
     """Function for the autonomous part of a competition match"""
 
     log(("Competition", "competition"), "autonomous_begin")
@@ -43,7 +43,7 @@ def autonomous_function2():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(-1200, -1200), REVERSE)
     matchload.set(False)
 
@@ -80,7 +80,7 @@ def autonomous_function2():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(1200, -1200), REVERSE)
     matchload.set(False)
 
@@ -113,7 +113,7 @@ def autonomous_function2():
     log(("Competition", "competition"), "autonomous_end")
 
 
-def autonomous_function():
+def autonomous_function2():
     """Different skills path with no ball scoring"""
     robot_position.reset(Position(-1600, -450))
     reset_heading_to_aim(Position(-900, -450), FORWARD)
@@ -133,7 +133,7 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(-1200, -1200), REVERSE)
     matchload.set(False)
 
@@ -160,7 +160,7 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(1200, -1200), REVERSE)
     matchload.set(False)
 
@@ -181,7 +181,7 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(1200, 1200), REVERSE)
     matchload.set(False)
     conveyor.spin(STOP, STOP, STOP)
@@ -209,7 +209,7 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     wait(600, MSEC)
     conveyor.spin(REVERSE, FORWARD, STOP)
-    wait(500, MSEC)
+    wait(600, MSEC)
     trigger_mover.move(Position(-1200, 1200), REVERSE)
     matchload.set(False)
     conveyor.spin(STOP, STOP, STOP)
