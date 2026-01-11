@@ -158,7 +158,7 @@ def autonomous_function():
     conveyor.spin(REVERSE, FORWARD, FORWARD)
     wait(6000, MSEC)
     # trigger_driver.drive(30)
-    trigger_mover.move(Position(-1200, -1200), REVERSE)
+    trigger_mover.move(Position(-1200, -1190), REVERSE)
     conveyor.spin(STOP, STOP, STOP)
 
     trigger_turner.turn(-180, FRAME_ABSOLUTE)
@@ -169,7 +169,7 @@ def autonomous_function():
     trigger_mover.move(Position(900, -1500), FORWARD)
 
     trigger_turner.turn(0, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1200), FORWARD)
+    trigger_mover.move(Position(900, -1190), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     flap.set(True)
 
@@ -188,13 +188,13 @@ def autonomous_function():
 
     # score loader 2
     flap.set(False)
-    trigger_turner.turn(270, FRAME_ABSOLUTE)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
     conveyor.spin(STOP, STOP, STOP)
     trigger_turner.turn(180, FRAME_HEADING_RELATIVE)
-    trigger_turner.turn(90, FRAME_ABSOLUTE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
     trigger_mover.move(Position(900, -1210))
-    trigger_turner.turn(90, FRAME_ABSOLUTE)
-    trigger_turner.turn(90, FRAME_ABSOLUTE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
     wait(6000, MSEC)
     # trigger_driver.drive(30)
