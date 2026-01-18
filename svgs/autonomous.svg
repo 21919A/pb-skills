@@ -78,7 +78,7 @@
 <polyline points="-60,306 0,410 60,306" fill="none" stroke="#77cc77" stroke-width="25"/>
 <polyline points="-60,-514 0,-410 60,-514" fill="none" stroke="#77cc77" stroke-width="25"/>
 </g>
-<g transform="translate(1200 -1200)  rotate(-268)">
+<g transform="translate(-1500 0)  rotate(-110)">
 <rect x="-195" y="-190" width="120" height="410" fill="none" stroke="#cc7777" stroke-width="25"/>
 <rect x="75" y="-190" width="120" height="410" fill="none" stroke="#cc7777" stroke-width="25"/>
 <line x1="-75" y1="0" x2="75" y2="0" stroke="#cc7777" stroke-width="25"/>
@@ -87,6 +87,7 @@
 <polyline points="-60,-514 0,-410 60,-514" fill="none" stroke="#cc7777" stroke-width="25"/>
 </g>
 <path d="M -1251,-1200 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="none" stroke="#7777cc" stroke-width="3" fill-rule="evenodd"/>
+<path d="M 0,-600 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="none" stroke="#7777cc" stroke-width="3" fill-rule="evenodd"/>
 <path d="M 901,-1190 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="none" stroke="#7777cc" stroke-width="3" fill-rule="evenodd"/>
 <line x1="-1288.0" y1="-380.0" x2="-1213.0" y2="-380.0" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
 <animateTransform attributeName="transform" type="rotate" to="360 -1250.0 -380.0" dur="2000ms" repeatCount="indefinite" from="0 -1250.0 -380.0"/>
@@ -121,7 +122,7 @@
 <polyline points="-900,-1190 -1200,-1190" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
 <animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
 </polyline>
-<polyline points="-1200,-1190 -1200,-1500 900,-1500 900,-1190" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<polyline points="-1200,-1190 -1200,-600 0,-600 900,-600 900,-1190" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
 <animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
 </polyline>
 <line x1="812" y1="-1190" x2="987" y2="-1190" stroke="#000000" stroke-width="25" stroke-dasharray="75,25">
@@ -148,15 +149,15 @@
 <line x1="1162" y1="-1200" x2="1237" y2="-1200" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
 <animateTransform attributeName="transform" type="rotate" to="360 1200 -1200" dur="2000ms" repeatCount="indefinite" from="0 1200 -1200"/>
 </line>
-<polyline points="1200,-1200 900,-1210" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<polyline points="1200,-1200 900,-1210 800,-1213" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
 <animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
 </polyline>
-<polyline points="900,-1210 1200,-1200" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<polyline points="800,-1213 1200,-1200" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
 <animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
 </polyline>
-<line x1="1162" y1="-1200" x2="1237" y2="-1200" stroke="#000000" stroke-width="25" stroke-dasharray="25,25">
-<animateTransform attributeName="transform" type="rotate" to="360 1200 -1200" dur="2000ms" repeatCount="indefinite" from="0 1200 -1200"/>
-</line>
+<polyline points="1200,-1200 1700,-1183 -1500,0" fill="none" stroke="#000000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
 <line x1="-2040" y1="1890" x2="-1920" y2="2010" stroke="#000000" stroke-width="12"/>
 <line x1="-2040" y1="2010" x2="-1920" y2="1890" stroke="#000000" stroke-width="12"/>
 <line x1="-1860" y1="1890" x2="-1740" y2="2010" stroke="#000000" stroke-width="12"/>
