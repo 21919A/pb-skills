@@ -167,7 +167,7 @@ def autonomous_function():
 
     # drive to other side
     trigger_mover.move(Position(0, -600), FORWARD)
-    trigger_turner.turn(0, FRAME_ABSOLUTE)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
     reset_robot_position_and_heading_to_gps()
     trigger_mover.move(Position(900, -600), FORWARD)
 
