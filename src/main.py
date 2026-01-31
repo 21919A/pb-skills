@@ -172,7 +172,7 @@ def autonomous_function():
     trigger_mover.move(Position(900, -600), FORWARD)
 
     trigger_turner.turn(180, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1190), FORWARD)
+    trigger_mover.move(Position(900, -1160), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     flap.set(True)
 
@@ -195,7 +195,7 @@ def autonomous_function():
     conveyor.spin(STOP, STOP, STOP)
     trigger_turner.turn(180, FRAME_HEADING_RELATIVE)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1210))
+    trigger_mover.move(Position(900, -1160))
     trigger_driver.drive(100)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
