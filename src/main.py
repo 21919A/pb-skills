@@ -205,7 +205,7 @@ def autonomous_function():
     trigger_mover.move(Position(1200, -1150), REVERSE)
     conveyor.spin(STOP, STOP, STOP)
 
-    trigger_driver.drive(-500)
+    # trigger_driver.drive(-500)
     trigger_mover.move(Position(-1500, 0), REVERSE)
 
     """
