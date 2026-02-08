@@ -169,10 +169,10 @@ def autonomous_function():
     trigger_mover.move(Position(0, -550), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     reset_robot_position_and_heading_to_gps()
-    trigger_mover.move(Position(900, -600), FORWARD)
+    trigger_mover.move(Position(900, -550), FORWARD)
 
     trigger_turner.turn(180, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1150), FORWARD)
+    trigger_mover.move(Position(900, -1200), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     flap.set(True)
 
@@ -186,7 +186,7 @@ def autonomous_function():
     wait(650, MSEC)
     conveyor.spin(REVERSE, STOP, FORWARD)
     wait(1105, MSEC)
-    trigger_mover.move(Position(1200, -1150), REVERSE)
+    trigger_mover.move(Position(1200, -1200), REVERSE)
     matchload.set(False)
 
     # score loader 2
@@ -195,7 +195,7 @@ def autonomous_function():
     conveyor.spin(STOP, STOP, STOP)
     trigger_turner.turn(180, FRAME_HEADING_RELATIVE)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1150))
+    trigger_mover.move(Position(900, -1200))
     trigger_driver.drive(100)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
