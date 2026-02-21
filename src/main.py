@@ -69,6 +69,7 @@ def autonomous_function():
     trigger_turner.turn(-270, FRAME_ABSOLUTE)
 
     # drive to other side
+    matchload.set(True)
     trigger_mover.move(Position(0, -550), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     reset_robot_position_and_heading_to_gps()
@@ -82,7 +83,6 @@ def autonomous_function():
 
 
     # empty loader 2
-    matchload.set(True)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
     trigger_driver.drive_for_time(1300, 20, True, 500)  
     trigger_driver.drive(-15)
