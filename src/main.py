@@ -69,7 +69,6 @@ def autonomous_function():
 
     # drive to other side
     trigger_mover.move(Position(0, -550), FORWARD)
-    trigger_turner.turn(90, FRAME_ABSOLUTE)
     reset_robot_position_and_heading_to_gps()
     trigger_mover.move(Position(900, -550), FORWARD)
 
@@ -77,7 +76,8 @@ def autonomous_function():
     trigger_mover.move(Position(900, -1200), FORWARD)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     flap.set(True)
-    trigger_mover.move(Position(1250, -1200), FORWARD)
+    trigger_mover.move(Position(1250, -1130), FORWARD)
+    trigger_turner.turn(90, FRAME_ABSOLUTE)
 
 
     # empty loader 2
@@ -86,7 +86,6 @@ def autonomous_function():
     trigger_driver.drive_for_time(1300, 20, True, 500)  
     trigger_driver.drive(-15)
     trigger_driver.drive(15)
-    reset_robot_position_and_heading_to_gps()
     wait(650, MSEC)
     conveyor.spin(REVERSE, STOP, FORWARD)
     wait(1105, MSEC)
@@ -98,13 +97,13 @@ def autonomous_function():
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     conveyor.spin(STOP, STOP, STOP)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
-    trigger_mover.move(Position(900, -1200))
+    trigger_mover.move(Position(950, -1200))
     trigger_driver.drive(100)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
     wait(6000, MSEC)
     # trigger_driver.drive(30)
-    trigger_mover.move(Position(1200, -1150), REVERSE)
+    trigger_mover.move(Position(1200, -1200), REVERSE)
     conveyor.spin(STOP, STOP, STOP)
 
     # trigger_driver.drive(-500)
