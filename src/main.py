@@ -15,6 +15,7 @@ def driver_function():
     """Function for the driver part of a competition match"""
 
     log(("Competition", "competition"), "driver_begin")
+    #set_split_arcade_control_sensitivity(0.3)
 
     # Add driver logic here
     # Note that event handling is initialized outside of this function by init_event_handling()
@@ -68,6 +69,7 @@ def autonomous_function():
     trigger_turner.turn(-270, FRAME_ABSOLUTE)
 
     # drive to other side
+    matchload.set(True)
     trigger_mover.move(Position(0, -550), FORWARD)
     reset_robot_position_and_heading_to_gps()
     trigger_mover.move(Position(900, -550), FORWARD)
@@ -81,7 +83,6 @@ def autonomous_function():
 
 
     # empty loader 2
-    matchload.set(True)
     conveyor.spin(REVERSE, FORWARD, FORWARD)
     trigger_driver.drive_for_time(1300, 20, True, 500)  
     trigger_driver.drive(-15)
